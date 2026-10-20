@@ -1,0 +1,42 @@
+#scraping
+pandas
+numpy
+beautifulsoup4
+requests
+
+#chunking / langchain/rag
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+
+#embedding /vector db
+sentence-transformers
+langchain-huggingface
+faiss-cpu
+
+
+langchain-core
+
+#OpenAI/Environment
+python-dotenv
+openai
+
+#memory/postgresql
+psycopg2-binary
+sqlalchemy
+
+#graph db
+neo4j
+pydantic
+
+#web search
+ddgs
+
+# Fastapi
+fastapi
+uvicorn
+
+#ui
+streamlit
+torchvision

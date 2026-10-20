@@ -1,0 +1,43 @@
+raw.txt
+    ↓
+Chunking
+    ↓
+Embeddings
+    ↓
+FAISS Vector Database
+    ↓
+Semantic Search
+    ↓
+Top K Chunks
+
+
+Project Archietecture :
+                FastAPI
+                   ↓
+               LangGraph
+                   ↓
+          ┌────────┴────────┐
+          ↓                 ↓
+       Memory             Router
+          ↓          ┌──────┼──────┐
+     PostgreSQL      ↓      ↓      ↓
+                   RAG     WEB   GENERAL
+                    ↓       ↓      ↓
+              Vector + KG  Web    LLM
+                    └───────┼──────┘
+                            ↓
+                           LLM
+                            ↓
+                     Save Memory
+                            ↓
+                       PostgreSQL
+
+
+
+#Commands 
+run api : python -m uvicorn api:app --reload
+
+api UI : http://127.0.0.1:8000/docs : to check API
+
+To run streamlit
+streamlit run app.py
