@@ -17,4 +17,4 @@
 5. To run the FastAPI backend, from the project root:
    `uvicorn api:app --app-dir backend --reload`
 
-Note: this is a structural separation of the existing project. The UI is Streamlit, not a separate React/HTML frontend. The original `.env`, Git history, and virtual environment were intentionally excluded to avoid exposing secrets and bulky machine-specific dependencies. Review `.env.example` and add any additional variables required by your setup.
+
