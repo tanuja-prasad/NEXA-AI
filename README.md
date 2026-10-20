@@ -1,4 +1,4 @@
-# NEXA — separated frontend and backend
+# NEXA — AI
 
 ## Folder structure
 
